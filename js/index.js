@@ -29,6 +29,8 @@
 //     display.innerText = '';
 // })
 
+
+//get all required input you need to work with and assign a vairable to them
 let name = document.getElementById('username');
 let getBtn =  document.getElementById('submitBtn');
 let errMsg =  document.querySelector('.errorMsg');
@@ -36,7 +38,7 @@ let errMsg =  document.querySelector('.errorMsg');
 form.addEventListener('submit', processForm);
 
 function validateForm() {
-
+    // check if input is empty 
     if(name.value.length === 0){
         errMsg.style.color = 'red';
         errMsg.innerHTML= '<i> name is required </i>';
@@ -47,8 +49,11 @@ function validateForm() {
 }
 
 function processForm(e){
-    e.preventDefault();
+    e.preventDefault(); //prevent defautl browser behaviour
+
+    //validate form input
     if(validateForm()){
+        // if true process form
         getBtn.innerText = 'submitting...';
     }
 }
