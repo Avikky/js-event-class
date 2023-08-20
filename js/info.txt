@@ -1,0 +1,97 @@
+// JavaScript events are interactions or occurrences that happen in a web browser, typically triggered by user actions or changes in the document. Here's a list of some commonly used JavaScript events:
+
+// 1. Mouse Events:
+//    - click
+//    - dblclick (double click)
+//    - mousedown
+//    - mouseup
+//    - mousemove
+//    - mouseover
+//    - mouseout
+//    - contextmenu (right-click)
+//    - wheel (mouse wheel scroll)
+
+// 2. Keyboard Events:
+//    - keydown
+//    - keyup
+//    - keypress
+
+// 3. Form Events:
+//    - submit
+//    - reset
+//    - change
+//    - input (when the value of an input changes)
+//    - focus
+//    - blur
+
+// 4. Document Events:
+//    - load (when the document and its resources finish loading)
+//    - unload (when the document is being unloaded)
+//    - beforeunload (before the document is about to be unloaded)
+//    - readyStateChange (when the readyState of the document changes)
+//    - DOMContentLoaded (when the HTML document has been completely loaded and parsed)
+
+// 5. Window Events:
+//    - resize (when the browser window is resized)
+//    - scroll (when the user scrolls within an element)
+//    - load (when the window finishes loading)
+//    - unload (when the window is being closed)
+
+// 6. Touch Events (for touch-enabled devices):
+//    - touchstart
+//    - touchend
+//    - touchmove
+//    - touchcancel
+
+// 7. Focus Events:
+//    - focus
+//    - blur
+//    - focusin
+//    - focusout
+
+// 8. Media Events (for multimedia elements):
+//    - play
+//    - pause
+//    - ended (when media playback completes)
+
+// 9. Drag and Drop Events:
+//    - dragstart
+//    - dragend
+//    - dragenter
+//    - dragleave
+//    - dragover
+//    - drop
+
+// 10. Animation Events:
+//     - animationstart
+//     - animationend
+//     - animationiteration
+
+// 11. Transition Events:
+//     - transitionstart
+//     - transitionend
+//     - transitioncancel
+
+// 12. Clipboard Events:
+//     - cut
+//     - copy
+//     - paste
+
+// 13. WebSocket Events:
+//     - open
+//     - message
+//     - close
+//     - error
+
+// 14. Pointer Events (providing unified input handling for various input devices):
+//     - pointerdown
+//     - pointerup
+//     - pointermove
+//     - pointerenter
+//     - pointerleave
+//     - pointerover
+//     - pointerout
+
+// This list covers some of the most common events in JavaScript, but there might be more specialized events and custom events that can be used depending on the specific needs of your application.
+
+
